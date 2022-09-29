@@ -8,6 +8,6 @@ default_context:
   minimal_python_version: 3.8
   github_name: "pandalearnstocode"
   email: "pandalearnstocode@gmail.com"
-  version: "0.0.0"
+  version: "0.0.1"
   line_length: "120"
   create_example_template: "cli"

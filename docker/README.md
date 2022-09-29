@@ -19,7 +19,7 @@ Default name is `IMAGE := pyv3`.
 Default version is `VERSION := latest`.
 
 ```bash
-make docker-build IMAGE=some_name VERSION=0.0.1
+make docker-build IMAGE=some_name VERSION=0.0.0
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ docker run -it --rm \
 To uninstall docker image run `make docker-remove` with `VERSION`:
 
 ```bash
-make docker-remove VERSION=0.0.1
+make docker-remove VERSION=0.0.0
 ```
 
 you may also choose the image name

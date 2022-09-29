@@ -150,5 +150,16 @@ show_missing = true
 
 [tool.semantic_release]
 version_variable = [
-    'pyv3/__init__.py:__version__'
+    "pyv3/__init__.py:version"
 ]
+version_toml = [
+    "pyproject.toml:tool.poetry.version"
+]
+version_pattern = [
+    "README.md:rev: v{version}",
+    "docs/CONTRIBUTING.md:tryceratops, version {version}"
+]
+branch = "develop"
+upload_to_pypi = false
+upload_to_release = true
+build_command = "pip install poetry && poetry build"

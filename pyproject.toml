@@ -147,3 +147,8 @@ branch = true
 [coverage.report]
 fail_under = 50
 show_missing = true
+
+[tool.semantic_release]
+version_variable = [
+    'pyv3/__init__.py:__version__'
+]

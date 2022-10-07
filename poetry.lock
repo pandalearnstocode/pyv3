@@ -746,7 +746,7 @@ yaml = ["PyYaml (>=5.2)"]
 
 [[package]]
 name = "python-semantic-release"
-version = "7.32.0"
+version = "7.32.1"
 description = "Automatic Semantic Versioning for Python projects"
 category = "main"
 optional = false
@@ -1130,7 +1130,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "e72723e8a8e679b96bd2ac59c5654325dcea9936e78d392a489000a60ab4bd7e"
+content-hash = "b96b1baa1fe9742d277e03d11beeb7f8fc751b5b9e6506dda135c54bec1d62e5"
 
 [metadata.files]
 astroid = [
@@ -1571,8 +1571,8 @@ python-gitlab = [
     {file = "python_gitlab-3.10.0-py3-none-any.whl", hash = "sha256:6b5a24d0f479c43c1759cb174cf42116ed27cced31284bedc82d584d860fa238"},
 ]
 python-semantic-release = [
-    {file = "python-semantic-release-7.32.0.tar.gz", hash = "sha256:e74087107e6c03478cc8672b561cc7b88a91ee0f528fd327112a90f6c684439d"},
-    {file = "python_semantic_release-7.32.0-py3-none-any.whl", hash = "sha256:a7e20d35e74b635762dc13f16e944d002bde849a23a088842d02422327416902"},
+    {file = "python-semantic-release-7.32.1.tar.gz", hash = "sha256:ba47100e4ffa74c006529d6a8c22ca98f85ff4c145e8584eb2b17e6830a5116e"},
+    {file = "python_semantic_release-7.32.1-py3-none-any.whl", hash = "sha256:9a29a02b3fb33fc318b07bf77c001c62aed9060d148eca25af7f4aa3afb49f4e"},
 ]
 pyupgrade = [
     {file = "pyupgrade-2.38.2-py2.py3-none-any.whl", hash = "sha256:41bb9a9fd48fe57163b0dacffff433d6d5a63a0f7c2402918917b5f1a533342b"},
